@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" style="white-space: pre;">
+    <style>
+@keyframes a0_t { 0% { transform: translate(32px,32px) scale(0,0) translate(-32px,-32px); animation-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55); } 100% { transform: translate(32px,32px) scale(1,1) translate(-32px,-32px); } }
+@keyframes a0_o { 0% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes a0_f { 0% { fill: #ffffff; } 100% { fill: #002636; } }
+    </style>
+    <rect width="64" height="64" fill="#ffffff" rx="32" stroke="none" fill-opacity="1" opacity="1" transform="translate(32,32) scale(0,0) translate(-32,-32)" style="animation: 1s linear both a0_t, 1s linear both a0_o, 1s linear both a0_f;"/>
+</svg>

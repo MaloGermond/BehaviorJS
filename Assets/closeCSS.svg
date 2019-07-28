@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><style>
+@keyframes fxi6ycy8phiu5462xbk3t071_t { 0% { transform: translate(32px,32px) scale(1,1) translate(-32px,-32px); animation-timing-function: cubic-bezier(.7,-0.6,.3,1.6); } 100% { transform: translate(32px,32px) scale(0,0) translate(-32px,-32px); } }
+@keyframes fxi6ycy8phiu5462xbk3t071_o { 0% { opacity: 1; } 100% { opacity: 1; } }
+@keyframes fxi6ycy8phiu5462xbk3t071_f { 0% { fill: #002636; } 100% { fill: #fff; } }
+</style><rect width="64" height="64" fill="#002636" rx="32" transform="translate(32,32) translate(-32,-32)" style="animation: .6s linear both fxi6ycy8phiu5462xbk3t071_t, .6s linear both fxi6ycy8phiu5462xbk3t071_o, .6s linear both fxi6ycy8phiu5462xbk3t071_f;"/></svg>

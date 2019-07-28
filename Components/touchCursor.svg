@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>touchCursor</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FAFAFA" stop-opacity="0" offset="51.2853674%"></stop>
+            <stop stop-color="#EDEDED" offset="71.6005068%"></stop>
+            <stop stop-color="#E3E3E3" offset="88.0569046%"></stop>
+            <stop stop-color="#BABABA" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="touchCursor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="url(#radialGradient-1)" cx="128" cy="128" r="128"></circle>
+    </g>
+</svg>

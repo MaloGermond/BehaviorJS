@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Keyshape -->
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 64 64" style="white-space: pre;">
+    <style>
+@keyframes a0_d { 0% { d: path('M32,0C32,17.6731,17.6731,32,0,32C-17.6731,32,-32,17.6731,-32,0C-32,-17.6731,-17.6731,-32,0,-32C17.6731,-32,32,-17.6731,32,0Z'); animation-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55); } 30.7692% { d: path('M32,0C32,17.6731,17.6731,-4,0,-4C-17.6731,-4,-32,17.6731,-32,0C-32,-17.6731,-17.6731,-32,0,-32C17.6731,-32,32,-17.6731,32,0Z'); } 100% { d: path('M32,0C32,17.6731,17.6731,-4,0,-4C-17.6731,-4,-32,17.6731,-32,0C-32,-17.6731,-17.6731,-32,0,-32C17.6731,-32,32,-17.6731,32,0Z'); } }
+@keyframes a2_t { 0% { transform: translate(32px,64px) scale(0,0); animation-timing-function: cubic-bezier(0.68,-0.55,0.265,1.55); } 30.7692% { transform: translate(32px,64px) scale(1,1); } 46.1538% { transform: translate(32px,64px) scale(1,1); animation-timing-function: cubic-bezier(1,0,0,1); } 100% { transform: translate(32px,64px) scale(1.78,1.78); } }
+@keyframes a1_t { 0% { transform: translate(0px,0px); } 30.7692% { transform: translate(0px,-18px); } 100% { transform: translate(0px,-18px); } }
+    </style>
+    <path fill="#fbfe57" stroke="none" d="M32,0C32,17.6731,17.6731,32,0,32C-17.6731,32,-32,17.6731,-32,0C-32,-17.6731,-17.6731,-32,0,-32C17.6731,-32,32,-17.6731,32,0Z" transform="translate(32,32)" style="animation: 1.3s linear both a0_d;"/>
+    <g style="animation: 1.3s linear both a2_t;">
+        <ellipse rx="18" ry="18" fill="#fe9c57" stroke="none" transform="translate(32,64) scale(0,0)" style="animation: 1.3s linear both a1_t;"/>
+    </g>
+</svg>

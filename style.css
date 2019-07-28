@@ -5,9 +5,8 @@
   display: none;
 }
 
-.shape{
+#shape{
   width: 100px;
   height: 100px;
-  background-color: #f86c80;
-  border-radius: 20%;
+  background-color: aqua
 }

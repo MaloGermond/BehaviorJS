@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 64 64"><rect id="_a0" width="64" height="64" fill="#fff" rx="32" transform="translate(32,32) scale(0,0) translate(-32,-32)"/><script xlink:href="keyshapejs-1.0.0.min.js"/><script><![CDATA[if(KeyshapeJS.version.indexOf('1.')!=0)throw Error('Expected KeyshapeJS v1.*.*');window.ks=document.ks=KeyshapeJS;(function(ks){
+ks.animate("#_a0",[{p:'scaleX',t:[0,1000],v:[0,1],e:[[1,.7,-0.6,.3,1.6],[0]]},{p:'scaleY',t:[0,1000],v:[0,1],e:[[1,.7,-0.6,.3,1.6],[0]]},{p:'opacity',t:[0,1000],v:[1,1],e:[[0],[0]]},{p:'fill',t:[0,1000],v:['#fff','#002636'],e:[[0],[0]]}],
+{autoremove:false}).range(0,1000);
+if(document.location.search.substr(1).split('&').indexOf('global=paused')>=0)ks.globalPause()})(KeyshapeJS);
+]]></script></svg>
