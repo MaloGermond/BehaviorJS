@@ -1,0 +1,13 @@
+.p5Canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.shape{
+  width: 100px;
+  height: 100px;
+  background-color: #f86c80;
+  border-radius: 20%;
+}
