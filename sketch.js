@@ -2,6 +2,7 @@ var rect
 
 window.onload = function setup() {
   rect = new Component()
+  //rect.draggable = true
 
   rect.states["default"]={
     width: "100px",
@@ -10,11 +11,12 @@ window.onload = function setup() {
     borderRadius: "8px",
     backgroundColor: "#61b1ff",
     top: "50vh",
-    left: "50vw"
+    left: "50vw",
+    boxShadow: "0px 0px 0px rgba(0,0,0,1)",
   }
 
   rect.states["hover"]={
-    //boxShadow: "0px 0px 8px"
+    boxShadow: "0px 2px 8px rgba(0,0,0,0.3)",
     backgroundColor: "aqua",
     borderRadius: "100%"
   }
@@ -25,8 +27,8 @@ window.onload = function setup() {
   rect.tap = function() {
     // console.log("tap");
     rect.animate({
-      top: Math.random(0,innerHeight)+"px",
-      width: Math.random(0,innerWidth)+"px"
+      top: randomInt(0,innerHeight)+"px",
+      left: randomInt(0,innerWidth)+"px"
     })
     //rect.cycle("hover","default")
   }

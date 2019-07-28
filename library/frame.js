@@ -17,6 +17,8 @@ class Component{
     this.el.style.height = "50px"
     this.el.style.backgroundColor = "#61b1ff"
     this.el.style.borderRadius = "8px"
+    this.el.style.top = "0px"
+    this.el.style.left ="0px"
 
     this.el.style.transition = "all 1s"
     this.el.style.position = "relative"
@@ -28,6 +30,7 @@ class Component{
     this.el.addEventListener("mouseover", this.onOver.bind(this))
     this.el.addEventListener("mousein", this.onOver.bind(this))
     this.el.addEventListener("mouseout", this.onLeave.bind(this))
+    this.el.addEventListener("mousedown", this.onPress.bind(this))
   }
 
   // addState(name, src){
@@ -55,20 +58,32 @@ class Component{
   }
 
   onLeave(){
-    // console.log(this.lastState);
     this.animate(this.lastState)
   }
 
-  animate(state){
-    console.log(state);
-    // console.log(this.states[state])
+  onPress(){
+    if(this.draggable == true){
+      dragElement(this.el)
+    }
+  }
 
+  animate(value){
+    console.log(value);
+    if(Object.keys(this.states).indexOf(value)){
+      this.animateState(value)
+    }
+
+    if(Object.keys(this.states).indexOf(value) === -1){
+      console.log("it's value");
+      for (let el in value) {
+        this.animateValue(el,value[el])
+      }
+    }
+  }
+
+  animateState(state){
     let obj = this.states[state]
     this.onState = state
-
-    // for (let arg in this.el.style) {
-    //   console.log(arg);
-    // }
 
     for (let el in obj) {
       if(el == "src"){
@@ -81,21 +96,17 @@ class Component{
         // this.el.style.height = this.el.style.height.slice(0, -2)*obj[el] + "px"
       }
 
-      if(cssConvert[el] != null){
-        this.el.style.setProperty(cssConvert[el], obj[el])
-      }else{
-        this.el.style.setProperty(el, obj[el])
-      }
-
+      this.animateValue(el, obj[el])
     }
-    // for (var i = 0; i < Object.values(this.states[state]).length; i++) {
-    //   console.log(this.states[state])
-    // }
-    // if(state in this.states && this.states[state].src != null){
-    //
-    // }else{
-    //   // console.log("state: "+ state+" dosen't exist");
-    // }
+  }
+
+  animateValue(type, value){
+
+    if(cssConvert[type] != null){
+      this.el.style.setProperty(cssConvert[type], value)
+    }else{
+      this.el.style.setProperty(type, value)
+    }
   }
 
   cycle() {
